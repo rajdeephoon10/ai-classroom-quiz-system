@@ -1,0 +1,17 @@
+.DS_Store
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+quiz_system.db
+*.sqlite
+*.sqlite3
+venv/
+.venv/
+env/
+dist/
+build/
