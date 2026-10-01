@@ -69,7 +69,7 @@ from langchain_groq import ChatGroq
 
 def get_llm():
     return ChatGroq(
-        model="qwen/qwen3-32b",
+        model="openai/gpt-oss-120b",
         temperature=0.2
     )
 

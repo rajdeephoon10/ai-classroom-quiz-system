@@ -47,7 +47,7 @@ from langchain_groq import ChatGroq
 
 # Initialize LLM
 llm = ChatGroq(
-    model="qwen/qwen3-32b",
+    model="openai/gpt-oss-120b",
     temperature=0.2
 )
 
